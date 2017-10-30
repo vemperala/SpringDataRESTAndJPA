@@ -1,0 +1,12 @@
+package com.akhildevz.data;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class RestAndJpaApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(RestAndJpaApplication.class, args);
+	}
+}
